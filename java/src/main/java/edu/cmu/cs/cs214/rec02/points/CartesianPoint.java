@@ -8,4 +8,14 @@ public class CartesianPoint implements Point {
         this.x = x;
         this.y = y;
     }
+
+    @Override
+    public int getX() {
+        return x;
+    }
+
+    @Override
+    public int getY() {
+        return y;
+    }
 }
